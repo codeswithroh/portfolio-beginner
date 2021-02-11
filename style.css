@@ -1,0 +1,98 @@
+body{
+    margin:0;
+}
+
+.introduction{
+    display:flex;
+    flex-basis:100%;
+    align-items:stretch;
+    background-color:black;
+}
+
+.social{
+    flex-basis: 5%;
+    display:flex;
+    flex-direction: column;
+    gap: 10em;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+}
+.links{
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+}
+
+.links a{
+    color:black;
+}
+.info{
+    flex-basis:85%;
+    height:600px;
+    display:flex;
+}
+
+.image{
+    flex-basis:60%;
+    background-color:black;
+    overflow:hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.details{
+    display:flex;
+    flex-direction:column;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+.title{
+    flex-basis:70%;
+    color:white;
+}
+
+.title h2{
+    text-align: left;
+    font-size:35px;
+    position:relative;
+    bottom:-90px;
+}
+.title p{
+    position: relative;
+    bottom:-110px;
+    font-size:large;
+    color:#D3D3D3;
+}
+.line{
+    width:400px;
+    height:5px;
+    background:yellow;
+    position:absolute;
+    top:175px;
+}
+.content{
+    text-align:left;
+}
+.content h2{
+    text-align:left;
+    font-size:30px;
+    color:#D3D3D3;
+    position:relative;
+    margin:0;
+    
+}
+
+.content h1{
+    text-align:left;
+    font-size:80px;
+    color:white;
+    margin:0;
+}
